@@ -58,9 +58,9 @@ const SignIn = () => {
   return (
     <div className="bg-[#855835] h-[100vh] w-full flex justify-center items-center">
       <Toaster position="top-center" reverseOrder={true} />
-      <div className="w-[1000px] h-[100%] md:h-[80%] lg:h-[90%] bg-[rgb(129, 129, 39)] rounded-[10px] grid grid-cols-1 md:grid-cols-5 overflow-hidden shadow-md">
+      <div className="w-[1000px] h-[100%] md:h-[80%] lg:h-[90%] bg-rounded-[10px] grid grid-cols-1 md:grid-cols-5 overflow-hidden shadow-md">
         <div className="hidden md:flex md:col-span-2">
-          <img src={img} alt="" />
+          <img src={img} alt="" className="object-cover"/>
         </div>
         <div className="md:col-span-3 flex justify-center items-center">
           <div className="w-[90%] border h-[90%] flex justify-center flex-col items-center md:h-[90%] shadow-md rounded-md bg-white">
@@ -115,7 +115,7 @@ const SignIn = () => {
                 <div className="text-[11px] italic mr-[5px]">
                   You Don't Have An Account?
                 </div>
-                <Link to="/register">
+                <Link to="/signup">
                   <div className="text-[10px] italic font-semibold text-blue-950">
                     SignUp
                   </div>

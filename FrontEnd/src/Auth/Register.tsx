@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import img from "../assets/pexels-polina-tankilevitch-6929197.jpg";
+import img from "../assets/Thought.jpg";
 import { MdEmail, MdPerson2 } from "react-icons/md";
 import { Link, useNavigate } from "react-router-dom";
 import { FaFacebook, FaGoogle } from "react-icons/fa";
@@ -65,9 +65,9 @@ const Register = () => {
   return (
     <div className="bg-[#855835]  h-[100vh] w-full flex justify-center items-center">
       <Toaster position="top-center" reverseOrder={true} />
-      <div className="w-[1000px] h-[85%] md:h-[85%] lg:h-[90%] bg-[rgb(129, 129, 39)] rounded-[10px] grid grid-cols-1 md:grid-cols-5 overflow-hidden shadow-md">
-        <div className="hidden md:flex md:col-span-2">
-          <img src={img} alt="" />
+      <div className="bg-[#431F29] w-[1000px] h-[85%] md:h-[85%] lg:h-[90%] bg-[rgb(129, 129, 39)] rounded-[10px] grid grid-cols-1 md:grid-cols-5 overflow-hidden shadow-md">
+        <div className="hidden md:flex md:col-span-2 object-cover">
+          <img src={img} alt="" className="object-cover" />
         </div>
         <div className="md:bg-white md:col-span-3 flex justify-center items-center">
           <div className="bg-white w-[90%] border h-[100%] flex justify-center flex-col items-center md:h-[90%] shadow-md rounded-md">
@@ -154,7 +154,7 @@ const Register = () => {
                 <div className="text-[9px] italic mr-[5px]">
                   Already Have An Account?
                 </div>
-                <Link to="/signin">
+                <Link to="/login">
                   <div className="text-[8px] italic font-semibold text-yellow-700 border md:text-[14px]">
                     SignIn
                   </div>
