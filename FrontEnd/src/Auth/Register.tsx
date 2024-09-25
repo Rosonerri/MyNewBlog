@@ -147,7 +147,7 @@ const Register = () => {
                   type="submit"
                   disabled={loading}
                 >
-                  {loading ? "Creating Account..." : "Create Account"}
+                  {loading ? "Creating Account" : "Create Account"}
                 </button>
               </div>
               <div className="mt-[15px] flex">
