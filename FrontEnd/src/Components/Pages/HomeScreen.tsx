@@ -8,10 +8,10 @@ const HomeScreen = () => {
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-80"></div>
       <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center text-white">
         <div className="flex justify-center items-center flex-col">
-          <h1 className="xl:text-[80px] text-[50px] ml:text-[65px]">
+          <h1 className="xl:text-[80px] text-[30px] ml:text-[65px]">
             Human Stories & Ideas
           </h1>
-          <p className="font-[400] text-[30px]">
+          <p className="font-[400] text-[17px] md:text-[30px]">
             <TypeWriter
               options={{
                 strings: [
