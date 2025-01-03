@@ -36,7 +36,7 @@ const Header = () => {
             </button>
           </Link>
         </div>
-        <div className="text-[50px] mt-[8px] text-[white] xl:hidden cursor-pointer">
+        <div className="text-[40px] mt-[8px] text-[white] xl:hidden cursor-pointer">
           <FiMenu />
         </div>
       </div>
