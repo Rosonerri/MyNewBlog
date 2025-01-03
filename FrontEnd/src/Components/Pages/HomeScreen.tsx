@@ -11,7 +11,7 @@ const HomeScreen = () => {
           <h1 className="xl:text-[80px] text-[30px] ml:text-[65px]">
             Human Stories & Ideas
           </h1>
-          <p className="font-[400] text-[17px] md:text-[30px]">
+          <p className="font-[400] text-[12px] md:text-[30px]">
             <TypeWriter
               options={{
                 strings: [
