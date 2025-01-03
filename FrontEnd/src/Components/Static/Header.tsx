@@ -9,7 +9,7 @@ const Header = () => {
         <div className="w-[20%] h-full flex items-center">
           <div className="flex w-[80%] md:w-[20%]">
             <img src={img} alt="" className="" />
-            <p className="mt-4 font-[700] text-[22px] text-[white] ">Blog</p>
+            <p className="mt-4 font-[700] text-[22px] text-[white] ">Blogs</p>
           </div>
         </div>
         <div className="w-[40%] h-full justify-between items-center text-white cursor-pointer hidden xl:flex">
