@@ -4,7 +4,7 @@ import { FiMenu } from "react-icons/fi";
 import { Link } from "react-router-dom";
 const Header = () => {
   return (
-    <div className="w-full h-[60px] flex justify-center items-center bg-[#BC9A7F] ">
+    <div className="w-full h-[60px] flex justify-center items-center bg-[#BC9A7F] text-[12px]">
       <div className="w-[95%] h-full flex justify-between">
         <div className="w-[20%] h-full flex items-center">
           <div className="flex w-[80%] md:w-[20%]">
