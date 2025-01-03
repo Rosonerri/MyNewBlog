@@ -32,7 +32,7 @@ const Header = () => {
           </Link>
           <Link to="/signup">
             <button className="border p-1 rounded-md font-[700]">
-              Sign Ups
+              Sign Up
             </button>
           </Link>
         </div>
