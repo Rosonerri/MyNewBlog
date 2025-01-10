@@ -21,7 +21,7 @@ const Header = () => {
             </div>
           </div>
           <div className="flex justify-center items-center">
-            <div>Resources</div>
+            <div>Resource</div>
             <div>
               <FaArrowDown />
             </div>
