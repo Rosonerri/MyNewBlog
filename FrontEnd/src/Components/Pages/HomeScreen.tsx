@@ -17,6 +17,7 @@ const HomeScreen = () => {
                 strings: [
                   "A place to read,",
                   "A place to write,",
+                  "A place to Interact,",
                   "And a place to deepen your understanding",
                 ],
                 autoStart: true,
