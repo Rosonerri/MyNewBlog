@@ -7,7 +7,7 @@ import { FaFacebook, FaGoogle } from "react-icons/fa";
 import * as yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { useForm } from "react-hook-form";
-// import { createAccount } from "../api/AuthApi"; 
+// import { createAccount } from "../api/AuthApi";
 import toast, { Toaster } from "react-hot-toast";
 // import register from "../Global/reduxState"
 
@@ -152,7 +152,7 @@ const Register = () => {
               </div>
               <div className="mt-[15px] flex">
                 <div className="text-[9px] italic mr-[5px]">
-                  Already Have An Account
+                  Already Have An Acct
                 </div>
                 <Link to="/login">
                   <div className="text-[8px] italic font-semibold text-yellow-700 border md:text-[14px]">
