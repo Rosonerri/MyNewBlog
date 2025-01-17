@@ -151,7 +151,9 @@ const Register = () => {
                 </button>
               </div>
               <div className="mt-[15px] flex">
-                <div className="text-[9px] italic mr-[5px]">Already Ha </div>
+                <div className="text-[9px] italic mr-[5px]">
+                  Already Have An account?
+                </div>
                 <Link to="/login">
                   <div className="text-[8px] italic font-semibold text-yellow-700 border md:text-[14px]">
                     SignIn
