@@ -21,7 +21,7 @@ const RegisterCard = () => {
           Please go check your email, there you'd see a verification link and
           your secret login token code... Click on the Link to verify your
           Account and Login to start enjoying all the benefiting from this
-          awes
+          aw
         </p>
       </div>
     </div>
