@@ -20,7 +20,6 @@ const RegisterCard = () => {
           You are seeing this message because you've created an account with us.
           Please go check your email, there you'd see a verification link and
           your secret login token code... Click on the Link to verify your
-          Account
         </p>
       </div>
     </div>
