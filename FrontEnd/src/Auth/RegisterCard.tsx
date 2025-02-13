@@ -19,7 +19,8 @@ const RegisterCard = () => {
         <p className="mt-1 w-[90%] text-[13px] font-[400]">
           You are seeing this message because you've created an account with us.
           Please go check your email, there you'd see a verification link and
-          your secret login token code... Click on the Link to v
+          your secret login token code... Click on the Link to verify your
+          Account and Login to start
         </p>
       </div>
     </div>
