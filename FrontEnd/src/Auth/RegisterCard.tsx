@@ -18,7 +18,7 @@ const RegisterCard = () => {
         <br />
         <p className="mt-1 w-[90%] text-[13px] font-[400]">
           You are seeing this message because you've created an account with us.
-          Please go check your email,
+          Please go check your
         </p>
       </div>
     </div>
