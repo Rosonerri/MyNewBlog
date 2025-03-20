@@ -25,7 +25,9 @@ const HomeScreen = () => {
               }}
             />
           </p>
-          <button className="border p-2 rounded-md mt-[30px] text-[20px] font-[600] hover:bg-[#BC9A7F] transition-all duration-400 hover:text-[black]"></button>
+          <button className="border p-2 rounded-md mt-[30px] text-[20px] font-[600] hover:bg-[#BC9A7F] transition-all duration-400 hover:text-[black]">
+            Start Readi
+          </button>
         </div>
       </div>
     </div>
