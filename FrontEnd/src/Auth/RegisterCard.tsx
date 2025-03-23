@@ -16,7 +16,7 @@ const RegisterCard = () => {
         <br />
         <div className="w-[97%] border-b " />
         <br />
-        <p className="mt-1 w-[90%] text-[13px] font-[400]">You are seii</p>
+        <p className="mt-1 w-[90%] text-[13px] font-[400]">You are </p>
       </div>
     </div>
   );
