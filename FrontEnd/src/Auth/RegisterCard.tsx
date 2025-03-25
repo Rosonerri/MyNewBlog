@@ -18,6 +18,7 @@ const RegisterCard = () => {
         <br />
         <p className="mt-1 w-[90%] text-[13px] font-[400]">
           You are seiing this message because you just signed up for our
+          Services
         </p>
       </div>
     </div>
