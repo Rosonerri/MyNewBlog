@@ -34,33 +34,12 @@ const SignIn = () => {
   } = useForm({
     resolver: yupResolver(schema),
   });
-
-  // const onSubmit = (data: { email: string, password: string }) => {
-  //   setLoading(true);
-  //   signInUser(data).then((res) => {
-  //     if (res.status === 201) {
-  //       // dispatch(login(res));
-  //       toast.success("Login Successfully");
-  //       setLoading(false);
-  //       navigate("/userdashboard");
-
-  //       const x = setTimeout(() => {
-  //         window.location.reload();
-  //         clearTimeout(x);
-  //       }, 10);
-  //     } else {
-  //       setLoading(false);
-  //       toast.error(`${res?.response?.data?.message}`);
-  //     }
-  //   });
-  // };
-
   return (
     <div className="bg-[#855835] h-[100vh] w-full flex justify-center items-center">
       <Toaster position="top-center" reverseOrder={true} />
       <div className="w-[1000px] h-[100%] md:h-[80%] lg:h-[90%] bg-rounded-[10px] grid grid-cols-1 md:grid-cols-5 overflow-hidden shadow-md">
         <div className="hidden md:flex md:col-span-2">
-          <img src={img} alt="" className="object-cover"/>
+          <img src={img} alt="" className="object-cover" />
         </div>
         <div className="md:col-span-3 flex justify-center items-center">
           <div className="w-[90%] border h-[90%] flex justify-center flex-col items-center md:h-[90%] shadow-md rounded-md bg-white">
