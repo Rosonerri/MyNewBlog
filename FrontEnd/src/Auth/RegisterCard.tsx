@@ -12,12 +12,12 @@ const RegisterCard = () => {
           HMO
         </div> */}
         <div className="text-[26px] font-bold mb-3">Account Verification</div>
-        <div className=" -mt-4">A mail has been sent to you..</div>
+        <div className=" -mt-4">A mcd Wrail has been sent to you..</div>
         <br />
         <div className="w-[97%] border-b " />
         <br />
         <p className="mt-1 w-[90%] text-[13px] font-[400]">
-          You are seiing this message because you
+          You are seiing this message because you registered on our cct
         </p>
       </div>
     </div>
