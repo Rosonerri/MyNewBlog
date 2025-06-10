@@ -16,9 +16,7 @@ const RegisterCard = () => {
         <br />
         <div className="w-[97%] border-b " />
         <br />
-        <p className="mt-1 w-[90%] text-[13px] font-[400]">
-          You are seeing this m
-        </p>
+        <p className="mt-1 w-[90%] text-[13px] font-[400]">You are seeings</p>
       </div>
     </div>
   );
