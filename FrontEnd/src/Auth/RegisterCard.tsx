@@ -18,11 +18,9 @@ const RegisterCard = () => {
         <br />
         <p className="mt-1 w-[90%] text-[13px] font-[400]">
           You are seeing this message because you just created an account with
-          us
         </p>
       </div>
     </div>
   );
 };
-
 export default RegisterCard;
