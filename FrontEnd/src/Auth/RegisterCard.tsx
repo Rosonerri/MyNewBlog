@@ -17,7 +17,8 @@ const RegisterCard = () => {
         <div className="w-[97%] border-b " />
         <br />
         <p className="mt-1 w-[90%] text-[13px] font-[400]">
-          You are seeing this message this message because you
+          You are seeing this message this message because you just registered
+          an account with
         </p>
       </div>
     </div>
