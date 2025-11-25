@@ -1,7 +1,6 @@
 import img from "../assets/pexels-polina-tankilevitch-6929197.jpg";
 import { MdEmail, MdPerson2 } from "react-icons/md";
 import { Link, useNavigate } from "react-router-dom";
-import { FcGoogle } from "react-icons/fc";
 import { FaFacebook } from "react-icons/fa";
 // import { useDispatch } from "react-redux";
 import * as yup from "yup";
@@ -107,9 +106,7 @@ const SignIn = () => {
               </div>
               <div className="flex md:w-full md:justify-around mt-[20px] text-[15px] justify-around gap-1">
                 <div className="text-[10px] italic font-semibold text-blue-950 border p-2 rounded-md flex cursor-pointer">
-                  <div className="text-[16px] mr-1">
-                    <FcGoogle />
-                  </div>
+                  <div className="text-[16px] mr-1">{/* <FcGoogle /> */}</div>
                   <div className="text-[13px]">Google</div>
                 </div>
                 <div className="text-[10px] italic font-semibold text-blue-950 flex border justify-center items-center rounded-md p-1 cursor-pointer">
